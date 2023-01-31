@@ -17,7 +17,8 @@ no sirve para el codigo
 
 	nombre = prompt("ingrese un nombre")
 
-	//nombre = "Joaquin"; //asignacion de string
+
+	//nombre = "lautaro"; //asignacion de string
 	// necesita valores de ambos lados y sirve para darle un valor a una variable (let)
 
 	alert(nombre)

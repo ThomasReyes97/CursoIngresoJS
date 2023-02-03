@@ -22,5 +22,5 @@ function mostrarAumento()
 	
 
 	txtIdResultado.value  = nuevoSueldo
-	alert(nuevoSueldo);
+	
 }

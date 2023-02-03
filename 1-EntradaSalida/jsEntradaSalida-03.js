@@ -6,7 +6,7 @@ Division: C*/
 function mostrar()
 {
 	var nombreIngresado; // variable
-	nombreIngresado = txtIdNombre.value;    //asigno un 
+	nombreIngresado = txtIdNombre.value;    
 	alert(nombreIngresado);
 
 }

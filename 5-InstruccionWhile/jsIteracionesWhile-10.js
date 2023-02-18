@@ -15,15 +15,38 @@ function mostrar()
 	//declarar contadores y variables 
 	var respuesta;
 	var numeroIngresado;
-	var sumaNegativos=0;
+	var sumaPositivos
+	var sumaNegativos;
+	var contadorpositivos
+	var contadornegativos
 
-	respuesta="si";
+	while(isNaN == numeroIngresado){
+		numeroIngresado = prompt("Ingrese un numero")
+		numeroIngresado = parseInt(numeroIngresado)
+	}
+	
+	sumaNegativos = 0
+	sumaPositivos = 0
 
-	while(respuesta=="si")
-	{
+	contadornegativos = 0
+	contadorpositivos = 0
+
+	respuesta="no";
+
+	do{
 		
-		respuesta=prompt("desea continuar?");
-	}//fin del while
+		while(isNaN == numeroIngresado){
+			numeroIngresado = prompt("Ingrese un numero")
+			numeroIngresado = parseInt(numeroIngresado)
+		}
+		
 
+		
+		
+
+	}while(respuesta != "si")
+
+	
+	
 	document.write("la suma de negativos es :"+sumaNegativos);
 }//FIN DE LA FUNCIÓN

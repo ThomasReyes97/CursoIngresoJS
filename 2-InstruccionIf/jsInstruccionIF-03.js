@@ -18,4 +18,13 @@ function mostrar()
 
 	}
 	
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN 
+//puedo poner un if adentro de un else
+
+/* if(edad> 18){
+	alkjsdlkaj
+	}
+	else{
+		if(edad < 13)
+	}
+	*/

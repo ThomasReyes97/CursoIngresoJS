@@ -37,3 +37,37 @@ function mostrar()
 
 
 }//FIN DE LA FUNCIÓN
+
+/* function mostrar()
+{
+	//tomo el mes
+	var mesDelAño =txtIdMes.value;
+	let estacion
+	
+	switch(mesDelAño){
+
+		case "Julio":
+		case "Agosto":
+			estacion = "Abrigate que hace frio."
+			break;
+
+		case "Enero":
+		case "Febrero":
+		case "Marzo":
+		case "Abril":
+		case "Mayo":
+		case "Junio":
+			estacion = "Falta para el invierno."
+			break;
+
+		default: // septiembre octubre noviembre diciembre
+			estacion = "Ya pasamos el frio, ahora calor!!!."
+			break;
+
+
+	}
+
+	alert(estacion)
+ 
+}//FIN DE LA FUNCIÓN
+*/
